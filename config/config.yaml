@@ -1,1 +1,13 @@
 # YAML config
+
+artifacts_root : artifacts
+
+DataValidation :
+  root_dir: artifacts/DataValidation
+  STATUS_FILE: artifacts/DataValidation/status.txt
+DataTransformation:
+  root_dir: artifacts/DataTransformation
+  data_path: Data/data.csv
+ModelTraining:
+  root_dir: artifacts/ModelTraining
+  

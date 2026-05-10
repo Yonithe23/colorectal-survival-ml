@@ -1,4 +1,10 @@
 # Add project dependencies here
 # Example:
-# numpy
-# pandas
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+ensure
+joblib
+python-box
